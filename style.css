@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+/* Main theme colors started  */
+
+:root{
+    --pink:#f8ebdc;
+    --red:#ee0000;
+    --brown:#58200f;
+    
+}
+
+
+
+/* Main theme colors ended */
+body{
+background-color: #ee0000;
+}
+
+/* Navbar styling started */
+
+.logo img{
+    width: 40px;
+}
+
+
+/* Navbar styling ended */
+
+
+/* Main styling started */
+
+.fs-8{
+    font-size:4rem;
+}
+.text-brown{
+    color:var(--brown);
+}
+
+.side-img img{
+    width: 600px;
+}
+
+.mt-6{
+    margin-top: 80px;
+}
+.order-btn-1{
+width:320px;
+padding: 10px;
+border-radius: 10px;
+background-color: #ee0000;
+color: white;
+}
+
+.order-btn-2{
+    width:320px;
+padding: 10px;
+border-radius: 10px;
+background-color: transparent;
+color:#ff0000;
+border: 1px solid #ff0000;
+    
+}
+
+
+
+.card{
+    border: 2px solid #000000;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.pad{
+    padding: 10px;
+}
+
+
+
+/* Main styling ended */
+
+
+@media (max-width:768px){
+
+    .fs-8{
+        font-size:3rem;
+        text-align: center;
+    }
+
+    .side-img img{
+        width: 100%;
+    }
+
+}
